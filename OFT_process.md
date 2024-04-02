@@ -9,18 +9,18 @@
 
 # OFT contracts
 
-- OFT_Op.sol
-- OFT_Arb.sol
+- OFT_Sepolia.sol
+- OFT_Mumbai.sol
 
 # Deploy to testnets
 
-- Deploy OFT_Op.sol (using Makefile)
-- Deploy OFT_Arb.sol (using Makefile)
+- Deploy OFT_Sepolia.sol (using Makefile)
+- Deploy OFT_Mumbai.sol (using Makefile)
 
 # Wire up contracts
 
-- setPeer on OFT_Op.sol (using Makefile)
-- setPeer on OFT_Arb.sol (using Makefile)
+- setPeer on OFT_Sepolia.sol (using Makefile)
+- setPeer on OFT_Mumbai.sol (using Makefile)
 - check both peers are set using \_isPeer
 
 # Cast to contracts

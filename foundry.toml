@@ -3,6 +3,7 @@ src = "src"
 out = "out"
 libs = ["lib"]
 remappings = [
+    "@layerzerolabs/lz-evm-protocol-v2/=lib/layerzero-v2/protocol/",
     "@openzeppelin/=lib/openzeppelin-contracts/"
 ]
 
