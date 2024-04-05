@@ -2,8 +2,10 @@
 
 - forge init
 - git add . & git commit -m "first commit"
+
 - forge install layerzero-labs/layerzero-v2
 - git add . & git commit -m "lz contracts added"
+
 - forge install openzeppelin-contracts/contracts
 - git add . & git commit -m "oz contracts added"
 
@@ -14,16 +16,16 @@
 
 # Deploy to testnets
 
-- Deploy OFT_Sepolia.sol (using Makefile)
-- Deploy OFT_Mumbai.sol (using Makefile)
+- Deploy OFT_Sepolia.sol
+- Deploy OFT_Mumbai.sol
 
 # Wire up contracts
 
-- setPeer on OFT_Sepolia.sol (using Makefile)
-- setPeer on OFT_Mumbai.sol (using Makefile)
+- setPeer on OFT_Sepolia.sol
+- setPeer on OFT_Mumbai.sol
 - check both peers are set using \_isPeer
 
 # Cast to contracts
 
-- cast [OFT_Op.sol] "quoteSend()" <-- takes the same struct as the "send()" function
-- cast [OFT_Op.sol] "send()" <-- takes the saem struct as 11., but also a fee struct + refund address (msg.sender)
+- cast [OFT_Op.sol] "quoteSend()"
+- cast [OFT_Op.sol] "send()"

@@ -10,6 +10,6 @@ contract OFT_Mumbai is OFT {
     address lzEndpoint = 0x6EDCE65403992e310A62460808c4b910D972f10f;
 
     constructor() OFT(oftName, oftSymbol, lzEndpoint, msg.sender) Ownable(msg.sender) {
-        _mint(msg.sender, 101 ether);
+        _mint(msg.sender, 100 ether);
     }
 }
