@@ -25,6 +25,10 @@
 - setPeer on OFT_Mumbai.sol
 - check both peers are set using \_isPeer
 
+# Set Options
+
+- setEnforcedOptions
+
 # Cast to contracts
 
 - cast [OFT_Op.sol] "quoteSend()"
