@@ -14,7 +14,7 @@ contract OmniCounterTest {
 
     // classic message passing A -> B
     function test_increment() public view {
-        bytes memory options = OptionsBuilder.newOptions().addExecutorLzReceiveOption(1500000, 0);
+        bytes memory options = OptionsBuilder.newOptions().addExecutorLzReceiveOption(200000, 0);
         console.logString("===== OPTIONS IN BYTES FORMAT =====");
         console.logBytes(options);
         console.logString("===================================");
